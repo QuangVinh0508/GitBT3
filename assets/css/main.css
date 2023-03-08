@@ -109,6 +109,32 @@ header {
   display: block;
 }
 
+.footer-body {
+  color: #000;
+  margin-top: 7rem;
+  text-align: center;
+}
+.footer-body .social a {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2.3rem;
+  color: #757575;
+  letter-spacing: 3px;
+}
+.footer-body .social a:hover {
+  opacity: 0.6;
+}
+.footer-body .copyright {
+  margin: 2.1rem 0 8rem;
+  color: #757575;
+}
+.footer-body .copyright a {
+  text-transform: uppercase;
+}
+.footer-body .copyright a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1140px) {
   .header .menu .drawer {
     padding: 0;
