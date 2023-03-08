@@ -90,6 +90,37 @@ header {
     object-fit: cover;
     display: block;
 }
+
+.footer {
+    &-body {
+        color: #000;
+        margin-top: 7rem;
+        text-align: center;
+        .social {
+            a {
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: 2.3rem;
+                color: #757575;
+                letter-spacing: 3px;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+        .copyright {
+            margin: 2.1rem 0 8rem;
+            color: #757575;
+            a {
+                text-transform: uppercase;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1140px) {
     .header .menu .drawer {
         padding: 0;
